@@ -43,7 +43,7 @@ a:hover, a:active {color: #bbbbbb;}
 
 #homepic 
 {
-	margin: 2.5% 0 0 1%;
+	margin: 3.5% 0 0 1%;
 	display: inline-block;
 	width: 70%;
 }
@@ -56,10 +56,10 @@ a:hover, a:active {color: #bbbbbb;}
 
 #copyrightHome
 {
-	margin: 0 1% 0 17%;
+	margin: 0 1% 5% 80%;
     display: inline-block;
     vertical-align: bottom;
-    font-size: .9em;
+    font-size: .85rem;
 }
 
 /********************************END HOME**************************************/
@@ -111,7 +111,7 @@ pre, li, p
 ul { text-align: center; }
 li { display: inline-block; }
 
-#rows{margin: 2.5% 0 2.5% 0;}
+#rows{margin: 3.5% 0 2.5% 0;}
 
 [id^="pic"] {cursor: pointer; cursor: hand;}
 
@@ -123,13 +123,13 @@ li { display: inline-block; }
 
 #seniorShow, #shotShow, #fairShow, #randomShow
 {
-	margin: 3% 20% 0 20%;
+	margin: 3.5% 20% 0 20%;
 	width: 60%;
 }
 
 #shotShow, #fairShow, #randomShow
 {
-    margin: 2.5% 20% 0 20%;
+    margin: 3.5% 20% 0 20%;
     width: 60%;
     padding: 30% 0 0 0;
 }
@@ -159,7 +159,7 @@ li { display: inline-block; }
 #awards, #exhibitions, #education
 {
 	width: 100%;
-    font-size: 1em;
+    font-size: .85rem;
     display: inline-block;
     margin: 0;
 }
@@ -170,8 +170,8 @@ li { display: inline-block; }
 
 #clobox
 {
-    width: 60%;
-    margin: 2.5% 1% 0% 1%;
+    width: 56%;
+    margin: 3.5% .5% 0% 1%;
     display: inline-block;
 }
     
@@ -181,20 +181,20 @@ li { display: inline-block; }
     height: auto;
 }
 
-#copyrightAbout {font-size: .9em;}
+#copyrightAbout {font-size: .7rem;}
     
 #textWrapper
 {
-	width: 35%;
+	width: 40%;
 	display: inline-block;
-	margin: 2.5% 1% 2% 0%;
+	margin: 3.5% 1% 2.4% .5%;
 	vertical-align: bottom;
 }
 
 #clobio, #statement
 {
 	margin: 0;
-	font-size: 1em;
+	font-size: .85rem;
 }
 
 /*****************************END CONTACT**************************************/

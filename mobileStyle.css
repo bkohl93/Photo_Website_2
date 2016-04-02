@@ -149,14 +149,14 @@ li { display: inline-block; }
 
 #seniorShow, #shotShow, #fairShow, #randomShow
 {
-    margin: 3% 0% 10% 0%;
+    margin: 3.5% 0% 10% 0%;
     width: 100%;
     padding-bottom: 30%
 }
 
 #shotShow, #fairShow, #randomShow
 {
-    margin: 2.5% 0% 0 0%;
+    margin: 3.5% 0% 0 0%;
     width: 100%;
     padding-top: 30%;
 }
