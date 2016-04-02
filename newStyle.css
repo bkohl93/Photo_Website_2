@@ -1,0 +1,200 @@
+/***********************************HEADER*************************************/
+
+#navigation
+{
+    background-color: rgba(255,255,255,0.9);
+    width: 100%;
+    position: fixed;
+    font-family: "Helvetica Light", sans-serif;
+    font-weight: lighter;
+    color: #000000;
+    top:0px;
+    padding: .5% 0 .5% 0;
+    border-bottom: 2px inset #bbbbbb;
+}
+
+#header_wrapper {height: 5%;}
+
+#work, #shows, #cv {border-right: 1px inset #bbbbbb}
+
+#work, #shows, #cv, #contact, #home 
+{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#home {float:left;}
+
+#work, #shows, #cv, #contact {float:right;}
+
+a
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover, a:active {color: #bbbbbb;}
+
+/*******************************END HEADER*************************************/
+
+/********************************HOME******************************************/
+
+#homeWrapper {width: 100%;}
+
+#homepic 
+{
+	margin: 2.5% 0 0 1%;
+	display: inline-block;
+	width: 70%;
+}
+	
+#homepic img 
+{
+    width: 100%;
+    height: auto;
+}
+
+#copyrightHome
+{
+	margin: 0 1% 0 17%;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: .9em;
+}
+
+/********************************END HOME**************************************/
+
+/********************************WORK******************************************/
+
+#col1, #col5 {width: 8%;}
+#col2, #col3, #col4 {width: 28%;}
+
+#col1, #col2, #col3, #col4, #col5
+{
+    float: left;
+    border: none;
+    padding: 0 0 5px 5px;
+}
+
+img 
+{
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+html
+{
+    overflow-y: scroll;
+    height: 100%;
+}
+
+body
+{
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+pre, li, p
+{
+    font-family: "Helvetica Light", sans-serif;
+    font-weight: lighter;
+    color: #000000;
+}
+
+*:focus {outline: 0;}
+
+* {box-sizing: border-box;}
+
+ul { text-align: center; }
+li { display: inline-block; }
+
+#rows{margin: 2.5% 0 2.5% 0;}
+
+[id^="pic"] {cursor: pointer; cursor: hand;}
+
+/******************************END WORK****************************************/
+
+/******************************SHOWS*******************************************/
+
+#showsWrapper {width: 100%;}
+
+#seniorShow, #shotShow, #fairShow, #randomShow
+{
+	margin: 3% 20% 0 20%;
+	width: 60%;
+}
+
+#shotShow, #fairShow, #randomShow
+{
+    margin: 2.5% 20% 0 20%;
+    width: 60%;
+    padding: 30% 0 0 0;
+}
+
+#c1, #c2, #c3
+{
+	width: 33.3%;
+	float: left;
+    border: none;
+    padding: 5px 0 0 5px;
+}
+
+/*****************************END SHOWS****************************************/
+
+/*****************************CV***********************************************/
+
+#cvWrapper {width: 100%;}
+
+#cvText
+{
+	width: 70%;
+	margin: 3% 1% 0% 25%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#awards, #exhibitions, #education
+{
+	width: 100%;
+    font-size: 1em;
+    display: inline-block;
+    margin: 0;
+}
+
+/******************************END CV******************************************/
+
+/*****************************CONTACT******************************************/
+
+#clobox
+{
+    width: 60%;
+    margin: 2.5% 1% 0% 1%;
+    display: inline-block;
+}
+    
+#clobox img
+{
+    width:100%;
+    height: auto;
+}
+
+#copyrightAbout {font-size: .9em;}
+    
+#textWrapper
+{
+	width: 35%;
+	display: inline-block;
+	margin: 2.5% 1% 2% 0%;
+	vertical-align: bottom;
+}
+
+#clobio, #statement
+{
+	margin: 0;
+	font-size: 1em;
+}
+
+/*****************************END CONTACT**************************************/

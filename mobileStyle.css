@@ -1,0 +1,232 @@
+/***********************************HEADER*************************************/
+
+#navigation
+{
+    background-color: rgba(255,255,255,0.9);
+    width: 100%;
+    position: fixed;
+    font-family: "Helvetica Light", sans-serif;
+    font-weight: lighter;
+    color: #000000;
+    top:0px;
+    padding: 3.5% 0 2% 0;
+    border-bottom: 2px inset #bbbbbb;
+    font-size: .9em;
+}
+
+#header_wrapper {height: 4.5%;}
+
+#work, #shows, #cv {border-right: 1px inset #bbbbbb}
+
+#work, #shows, #cv, #contact, #home 
+{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#home
+{
+	padding: 0% 10% 0% 26%;
+	float: left;
+}
+
+#work, #shows, #cv, #contact
+{
+    margin-top: 3.5%;
+    padding: 0 6.5% 0 6.5%;
+    float: right;
+}
+
+a
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover, a:active {color: #bbbbbb;}
+
+/*******************************END HEADER*************************************/
+
+/********************************HOME******************************************/
+
+#homeWrapper {width: 100%;}
+
+#homepic 
+{
+    margin: 0;
+    display: inline-block;
+}
+    
+#homepic img 
+{
+    width: 100%;
+    height: auto;
+    width: 100%;
+    margin: 50% 0 0 0;
+    left: 0;
+}
+
+#copyrightHome
+{
+    position: absolute;
+    bottom: 0;
+    left: .1%;
+    font-size: .7em;
+}
+
+/********************************END HOME**************************************/
+
+/********************************WORK******************************************/
+
+#col1, #col5 {width: 0%;}
+#col2, #col3, #col4 {width: 100%;}
+
+#col1, #col2, #col3, #col4, #col5
+{
+    float: left;
+    border: none;
+    padding: 0;
+}
+
+[id^="pic"], [id^="wrapper"]
+{
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    pointer-events: none;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+
+img 
+{
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+html
+{
+    overflow-y: scroll;
+    height: 100%;
+}
+
+body
+{
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+pre, li, p
+{
+    font-family: "Helvetica Light", sans-serif;
+    font-weight: lighter;
+    color: #000000;
+}
+
+*:focus {outline: 0;}
+
+* {box-sizing: border-box;}
+
+ul { text-align: center; }
+li { display: inline-block; }
+
+#rows{margin: 20% 0 2.5% 0;}
+
+[id^="pic"] {cursor: pointer; cursor: hand;}
+
+/******************************END WORK****************************************/
+
+/******************************SHOWS*******************************************/
+
+#showsWrapper
+{
+	width: 100%;
+	margin: 25% 0 0 0;
+	font-size: .7em;
+}
+
+#seniorShow, #shotShow, #fairShow, #randomShow
+{
+    margin: 3% 0% 10% 0%;
+    width: 100%;
+    padding-bottom: 30%
+}
+
+#shotShow, #fairShow, #randomShow
+{
+    margin: 2.5% 0% 0 0%;
+    width: 100%;
+    padding-top: 30%;
+}
+
+#c1, #c2, #c3
+{
+    width: 33.3%;
+    float: left;
+    border: none;
+    padding: 5px 0 0 5px;
+}
+
+/*****************************END SHOWS****************************************/
+
+/*****************************CV***********************************************/
+
+#cvWrapper {width: 100%;}
+
+#cvText
+{
+    width: 98%;
+    margin: 30% 1% 0% 1%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: .3em;
+    word-wrap: break-word;
+}
+
+#awards, #exhibitions, #education
+{
+    width: 100%;
+    display: inline-block;
+}
+
+/******************************END CV******************************************/
+
+/*****************************CONTACT******************************************/
+
+#clobox
+{
+    width: 98%;
+    margin: 20% 0% 0% 0%;
+    display: inline-block;
+}
+    
+#clobox img
+{
+    width:100%;
+    height: auto;
+}
+
+#copyrightAbout
+{
+	margin-bottom: 4%;
+	font-size: .1em;
+}
+    
+#textWrapper
+{
+    width: 50%;
+    display: inline-block;
+    margin: 2.5% 0% 2% 1%;
+    vertical-align: bottom;
+}
+
+#clobio, #statement
+{
+    float: left;
+    margin: .5% 0% 4% 0%;
+    font-size: .2em;
+}
+
+/*****************************END CONTACT**************************************/
